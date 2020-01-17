@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script type="text/javascript" src="Scripts.js"></script>
+    <title>L' ENFANT GALERIE</title>
+  </head>
+  <body>
+
+    <!-- Navigation bar -->
+    <div>
+      <nav id="navigation-bar">
+          <div id="mobile-dropdown">
+            <ul id="mobile-dropdown-ul">
+              <li><a class="navigation-bar-link" href="index.html">GALLERY</a></li>
+              <li><a class="navigation-bar-link" href="about.html">ABOUT</a></li>
+              <li><a class="navigation-bar-link" href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <hr id="mobile-divider">
+          <div id="mobile-menu">
+            <a href="javascript:void(0);" onclick="mobileMenu()">MENU</a>
+          </div>
+          <div id="logo-container">
+            <a href="index.html"><img class="responsive-img" src="logo2.png" alt="L' Enfant Galerie Logo"></a>
+          </div>
+          <div id="nav-bar-link-container">
+            <a class="navigation-bar-link" href="index.html">GALLERY</a>
+            <a class="navigation-bar-link" href="about.html">ABOUT</a>
+            <a class="navigation-bar-link" href="contact.html">CONTACT</a>
+          </div>
+      </nav>
+    </div>
+
+    <!-- Image grid body -->
+    <div id="img-grid">
+      <div class="row-gallery">
+        <div class="col-gallery">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+        </div>
+        <div class="col-gallery">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+        </div>
+        <div class="col-gallery">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+        </div>
+        <div class="col-gallery">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+          <img src="2.jpg" onclick="openModal();currentSlide(2)">
+          <img src="1.jpg" onclick="openModal();currentSlide(1)">
+          <img src="3.jpg" onclick="openModal();currentSlide(3)">
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer bar -->
+    <footer id="bottom-bar">
+      <div class="">
+        <a href="index.html"><img class="responsive-img" src="logo.png" alt="L' Enfant Galerie Logo"></a>
+      </div>
+      <div class="">
+        <p id="copyright">&copy; 2020 Copyright: L'Enfant Galarie</p>
+      </div>
+    </footer>
+
+    <!-- Lightbox for Images -->
+
+        <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 3</div>
+          <img src="1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 3</div>
+          <img src="2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 3</div>
+          <img src="3.jpg" style="width:100%">
+        </div>
+
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
